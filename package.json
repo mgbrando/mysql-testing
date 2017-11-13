@@ -1,0 +1,31 @@
+{
+  "name": "mysql-testing",
+  "version": "1.0.0",
+  "description": "mysql testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgbrando/mysql-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgbrando/mysql-testing/issues"
+  },
+  "homepage": "https://github.com/mgbrando/mysql-testing#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "faker": "^4.1.0",
+    "mocha": "^4.0.1"
+  }
+}
